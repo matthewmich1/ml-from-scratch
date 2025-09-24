@@ -60,11 +60,6 @@ The model successfully converged after 1000 iterations. Its final accuracy on th
    ```
 3. Open and run the Jupyter Notebook:
    ```bash
-<<<<<<< HEAD
    jupyter notebook "linear_regression.ipynb"
    jupyter notebook "logistic_regression.ipynb"
-=======
-   jupyter notebook "regression_from_scratch.ipynb"
-   jupyter notebook "logistic_regression_from_scratch.ipynb"
->>>>>>> 665aa1949d697274729398ae7987e6798dbeb717
    ```
