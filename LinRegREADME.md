@@ -5,11 +5,11 @@ This project involves building, training, and validating a linear regression mod
 
 ### Key Concepts & Skills Demonstrated
 - **Linear Regression:** Implemented the complete algorithm from scratch in an object-oriented `LinearRegression` class.
-- **Gradient Descent:** Used vectorized gradient descent to optimize the model's parameters by minimizing the cost function.
+- **Gradient Descent:** Used vectorised gradient descent to optimise the model's parameters by minimising the cost function.
 - **Cost Function:** Implemented the Mean Squared Error (MSE) cost function, $J(\theta)$, to measure model performance.
-- **Feature Scaling:** Applied Standardization to preprocess the data, ensuring efficient model convergence.
+- **Feature Scaling:** Applied Standardisation to preprocess the data, ensuring efficient model convergence.
 - **Model Validation:** Verified the from-scratch implementation by comparing its performance against the industry-standard Scikit-learn library.
-- **NumPy:** Utilized NumPy for all vectorized mathematical computations.
+- **NumPy:** Utilized NumPy for all vectorised mathematical computations.
 
 ## Technologies Used
 - Python
