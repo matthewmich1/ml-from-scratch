@@ -1,4 +1,4 @@
-### **Project: Building Linear & Logistic Regression from Scratch**
+## **Project: Building Linear & Logistic Regression from Scratch**
 
 ### Overview
 Built, trained, and validated two machine learning models from scratch using only Python and NumPy.
@@ -20,7 +20,7 @@ Built, trained, and validated two machine learning models from scratch using onl
 
 - **NumPy:** Utilised NumPy for all efficient, vectorised mathematical computations.
 
-## Technologies Used
+### Technologies Used
 - Python
 - NumPy
 - Pandas
