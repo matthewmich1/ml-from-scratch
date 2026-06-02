@@ -1,10 +1,9 @@
 ### **Project: Building Linear & Logistic Regression from Scratch**
 
 ### Overview
-This project involves building, training, and validating two fundamental machine learning models from scratch using only Python and NumPy.
-- **Part A:** Linear Regression predicts Boston house prices, demonstrating regression techniques.
-- **Part B:** Logistic Regression predicts passenger survival on the Titanic, demonstrating classification techniques.
-The goal is to showcase a deep, practical understanding of the core mechanics of these foundational algorithms.
+Built, trained, and validated two machine learning models from scratch using only Python and NumPy.
+- **Part A:** Linear Regression to predict Boston house prices.
+- **Part B:** Logistic Regression to predict passenger survival on the Titanic.
 
 ### Key Concepts & Skills Demonstrated
 - **Object-Oriented Programming:** Implemented both algorithms in clean, reusable LinearRegression and LogisticRegression classes.
@@ -33,7 +32,7 @@ The goal is to showcase a deep, practical understanding of the core mechanics of
 
 **Part A: Linear Regression** 
 
-The model successfully converged after 2000 iterations. Its performance on the unseen test data was validated against Scikit-learn, with the final Mean Squared Error (MSE) being nearly identical and proving the correctness of the implementation.
+Model successfully converged after 2000 iterations. Its performance on the unseen test data was validated against Scikit-learn, with the final Mean Squared Error (MSE) being nearly identical and proving the correctness of the implementation.
 
 | Model                  | Final MSE on Test Set |
 | ---------------------- | --------------------- |
@@ -42,24 +41,10 @@ The model successfully converged after 2000 iterations. Its performance on the u
 
 **Part B: Logistic Regression**
 
-The model successfully converged after 1000 iterations. Its final accuracy on the test set was identical to the Scikit-learn equivalent, validating the implementation.
+Model successfully converged after 1000 iterations. Its final accuracy on the test set was identical to the Scikit-learn equivalent, validating the implementation.
 
 | Model                  | Final Accuracy on Test Set |
 | ---------------------- | -------------------------- |
 | My From-Scratch Model  | **81.01%**                 |
 | Scikit-learn's Model   | **81.01%**                 |
 
-### How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/matthewmich1/ML_from_scratch.git](https://github.com/matthewmich1/ML_from_scratch.git)
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd ML_from_scratch
-   ```
-3. Open and run the Jupyter Notebook:
-   ```bash
-   jupyter notebook "linear_regression.ipynb"
-   jupyter notebook "logistic_regression.ipynb"
-   ```
